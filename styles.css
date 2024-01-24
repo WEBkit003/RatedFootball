@@ -164,8 +164,9 @@ h5 {
 
     .carosal-img {
         margin-top: 2rem;
-        width: 350px;
+        width: 300px;
         margin-right: 2rem;
+        margin-bottom: 0rem;
     }
 
     .carousel-text {
