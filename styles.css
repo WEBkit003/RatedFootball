@@ -1,0 +1,276 @@
+* { box-sizing:border-box; }
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+
+    margin: 0;
+}
+
+footer {
+    background-color: #000;
+    height: 20vh;
+}
+
+.carosal {
+    background-color: #000;
+    height: auto;
+}
+
+.carosal-img {
+    width: 300px;
+}
+
+.carousel-text {
+    padding-right: 5rem;
+    /* width: 100%; */
+    color: #fff;
+    margin-left: 2rem;
+}
+
+.carousel-control-next {
+    display: none;
+}
+
+.carousel-control-prev {
+    display: none;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 1rem;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+    padding-top: 2rem;
+}
+
+h5 {
+    font-size: 50px;
+    font-weight: bold;
+
+    /** TEXT GRADIENT */
+    color: #9747FF;
+    background-image: -webkit-linear-gradient(45deg, #9747FF 4%, #8FEBFF 40%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-emphasis-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.p1 {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+
+.carousel-btn {
+    margin-bottom: -15rem;
+}
+
+.cta {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+}
+
+.cta-img-1 {
+    padding-left: 73%;
+}
+
+.cta-img-2 {
+    padding-right: 68%;
+}
+
+.breakdown {
+    background-color: #000;
+    height: auto;
+    padding-bottom: 5rem;
+}
+
+.breakdown-h1 {
+    display: none;
+}
+
+.breakdown-p {
+    display: none;
+}
+
+.breakdown-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+}
+
+.breakdown-grid {
+    display: flex;
+    justify-content: center;
+}
+
+.breakdown-img-1 {
+    margin-top: 5rem;
+}
+
+.breakdown-img-2 {
+    margin-top: 5rem;
+    padding: 0 20% 0 20%;
+}
+
+.breakdown-img-3 {
+    margin-top: 5rem;
+}
+
+.dual-screen-phone {
+    width: 40%;
+}
+
+.Copyright {
+    text-align: center;
+    margin-top: 5rem
+}
+
+.Copyright:hover {
+    color: orangered;
+}
+
+@media (max-width: 767px) {
+
+    .carosal {
+        background-color: #000;
+        height: auto;
+    }
+
+    .carosal-img {
+        width: 200px;
+    }
+
+    .carousel-text {
+        padding-right: 0;
+        width: 100%;
+        color: #fff;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        color: white;
+        padding-top: 1rem;
+        font-size: 20px;
+    }
+
+
+    h5 {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px 0 50px 0;
+    }
+
+    .p1 {
+        font-size: 20px;
+        padding: 0 10px 0 10px;
+    }
+
+    .carousel-control-next {
+        display: none;
+    }
+
+    .carousel-control-prev {
+        display: none;
+    }
+
+    .cta-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cta-img-1 {
+        padding-left: 1%;
+        width: 95%;
+    }
+
+    .cta-img-2 {
+        padding-right: 1%;
+        width: 95%;
+    }
+
+    .breakdown {
+        background-color: #000;
+        height: auto;
+        padding-bottom: 3rem;
+    }
+
+    .carousel-t{
+        display: none;
+    }
+
+    .breakdown-h1 {
+        display: block;
+        text-align: center;
+        /** TEXT GRADIENT */
+        color: #9747FF;
+        background-image: -webkit-linear-gradient(45deg, #9747FF 30%, #8FEBFF 60%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        text-emphasis-color: transparent;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .breakdown-p {
+        display: block;
+        text-align: center;
+        color: #fff;
+        padding: 0 20px 0 20px;
+    }
+
+    .breakdown-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        align-items: center;
+    }
+
+    .breakdown-img-1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+
+    .breakdown-img-2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+        padding: 0 0 0 0;
+    }
+
+    .breakdown-img-3 {
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+
+    }
+
+}
+
+
+
