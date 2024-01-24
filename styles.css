@@ -152,7 +152,7 @@ h5 {
 }
 
 .Copyright:hover {
-    color: orangered;
+    color: rgba(255, 68, 0, 0.228);
 }
 
 @media (max-width: 767px) {
@@ -163,7 +163,9 @@ h5 {
     }
 
     .carosal-img {
-        width: 200px;
+        margin-top: 2rem;
+        width: 350px;
+        margin-right: 2rem;
     }
 
     .carousel-text {
